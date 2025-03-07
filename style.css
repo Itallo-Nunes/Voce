@@ -1,0 +1,41 @@
+/* Definindo a aparência do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Criando o contêiner para a imagem de fundo */
+.container {
+    position: relative;
+    height: 100%;
+    background-image: url('mulher.png'); /* Substitua com o link da sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sobreposição para exibir o nome na tela */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Cores femininas e delicadas */
+body {
+    background-color: #F9E5D6; /* cor de fundo suave */
+    color: #F2A5D2; /* cor de texto suave e feminina */
+}
+
+.overlay p {
+    font-size: 2.5em;
+    font-family: 'Comic Sans MS', cursive;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
